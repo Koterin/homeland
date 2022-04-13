@@ -1,0 +1,1 @@
+python3 ~/Linter/cpplint.py --extensions=c --filter=-whitespace/braces,-readability/casting,-runtime/int,-build/include_subdir,-build/include,-runtime/threadsafe_fn,-runtime/printf --linelength=110 --headers=h $1
