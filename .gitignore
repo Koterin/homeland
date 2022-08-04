@@ -1,0 +1,9 @@
+*swp
+*.crt
+*.key
+*.env
+*golangci.yml
+*ssh*
+todo.md
+*.db-secret
+*.pre-commit*
