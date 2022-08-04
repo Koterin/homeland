@@ -1,3 +1,4 @@
+:colorscheme jellybeans
 :set number
 :set tabstop=4 shiftwidth=4 expandtab smarttab
 :syntax on
@@ -16,10 +17,10 @@ function MyTabLine()
                         let s .= '%#TabLine#'
                 endif
                 " set the tab page number (for mouse clicks)
-                let s .= '%' . (t + 1) . 'T' 
-                let s .= ' ' 
+                let s .= '%' . (t + 1) . 'T'
+                let s .= ' '
                 " set page number string
-                let s .= t + 1 . ' ' 
+                let s .= t + 1 . ' '
                 " get buffer names and statuses
                 let n = ''      "temp string for buffer names while we loop and check buftype
                 let m = 0       " &modified counter
@@ -44,7 +45,7 @@ function MyTabLine()
                                 let n .= ' '
                         endif
                         let bc -= 1
-                                        endfor
+                endfor
                 " add modified label [n+] where n pages in tab are modified
                 if m > 0
                         let s .= '[' . m . '+]'
