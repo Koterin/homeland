@@ -25,6 +25,8 @@
 
   - name: .bashrc
 
+  - name: .ssh/config
+
   - name: golangci-lint
 
   - name: go 1.18
